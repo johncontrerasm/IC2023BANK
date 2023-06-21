@@ -1,0 +1,22 @@
+# Archivos y directorios específicos de Django
+*.pyc
+__pycache__/
+*.sqlite3
+
+# Directorio de configuración local
+.env
+
+# Directorios generados por herramientas de desarrollo
+venv/
+node_modules/
+
+# Otros archivos y directorios generados
+*.log
+/static/
+/media/
+
+# Archivo de configuración de IDE específico
+.vscode/
+.idea/
+
+# Otros archivos y directorios que deseas ignorar
